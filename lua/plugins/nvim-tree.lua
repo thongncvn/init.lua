@@ -10,7 +10,7 @@ return {
   'nvim-tree/nvim-tree.lua',
   dependencies = { 'nvim-tree/nvim-web-devicons' },
   keys = {
-    { '<leader>b', '<cmd>NvimTreeToggle<cr>', desc = 'Toggle file explorer' },
+    { '<leader>b', '<cmd>NvimTreeFindFileToggle<cr>', desc = 'Toggle file explorer' },
   },
   opts = {
     sort = {
