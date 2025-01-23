@@ -13,3 +13,4 @@ vim.opt.autoindent = true   -- Copy indentation from the current line when start
 vim.opt.smartindent = true  -- Add extra indentation in some programming languages
 
 require("config.lazy")
+
