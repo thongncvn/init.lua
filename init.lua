@@ -1,5 +1,7 @@
 vim.cmd('colorscheme habamax')
 vim.opt.wrap = false
+vim.opt.laststatus = 0
+vim.opt.ruler = false
 -- Set indentation settings
 vim.opt.expandtab = true    -- Use spaces instead of tabs
 vim.opt.shiftwidth = 2      -- Number of spaces for each indentation
